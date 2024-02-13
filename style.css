@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("./pexels-simon-berger-1323550.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+   display: flex; 
+   align-items: center;
+   margin-left: 550px;
+   position: fixed;
+}
+#apple{
+    font-size: 90px;
+}
+.left{
+margin-right: 100px;
+}
+.right{
+    margin-left: 100px;
+}
+.list-items{
+    display: inline;
+    list-style: none;
+    margin: 0px 30px;
+    font-size: 30px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+.links:hover{
+    color: white;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    border-color: black;
+}
+#head{
+    font-size: 70px;
+}
+#tagline{
+    font-size: 35px;
+}
+.section2{
+    width: 100%;
+    background-image: url("./macos-sonoma-6016x6016-11578.jpg");
+}
+.products{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+
+    align-items: center;
+}
+.productss{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+}
+.contents{
+    width: 400px;
+}
+.button{
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.contentss{
+    width: 400px;
+    margin-left: 150px;
+}
+.image2{
+    width: 800px;
+}
+.image3{
+    width: 500px;
+    margin-left: 100px;
+}
+.footer{
+    height: 95vh;
+    width:10%;
+    background-image: url(./apple-logo-iphone-12-iphone-12-pro-iphone-12-pro-max-iphone-3982x2240-3273.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+}
+
+#copyright{
+    font-weight: 600;
+    text-align: center;
+    color: black;
+   
+}
+.image:hover, .image:active{
+    height: 410px;
+    width: 410px;
+}
